@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding:20px;
+}
+.navbar h1{
+    margin-bottom: 5px;
+}
+.navbar p{
+    color:grey;
+    cursor:pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding:40px;
+    flex-wrap: wrap;
+
+}
+.card{
+    width:220px;
+    background-color: white;
+    border:1px solid #ddd;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.card img{
+    width:100%;
+    height:220px;
+    object-fit: cover;
+}
+.card button{
+    background-color: black;
+    color:white;
+    border:none;
+    padding:10px;
+
+}
+.container-contact{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;     
+    align-items: center; 
+   
+    padding: 30px;
+}
+
+
+.container-contact h1,.container-contact form,.container-contact table{
+    text-align: center;
+}
+.container-contact form input{
+    padding:8px;
+    margin:5px;
+    border:none;
+}
+.container-contact form input[type="submit"]{
+    background-color: yellow;
+    cursor: pointer;
+    width: 50%;
+    font-weight: bold;
+   
+   
+}
